@@ -7,7 +7,6 @@ import CONFIG from './config'
 import {DeploymentStack} from './deployment-stack'
 
 const app = new App()
-const stage = getStage(app)
 const stackName = `${CONFIG.STACK_PREFIX}DeploymentStack`
 
 const defaultConfig = {
@@ -45,5 +44,5 @@ const config = {
 
 new DeploymentStack(app, stackName, {
   ...defaultConfig,
-  ...config[stage],
+  ...config['prod'],
 })
