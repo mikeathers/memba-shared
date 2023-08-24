@@ -2,7 +2,7 @@
 import 'source-map-support/register'
 import {App} from 'aws-cdk-lib'
 
-import {getStage, getVersion} from './helpers'
+import {getVersion} from './helpers'
 import CONFIG from './config'
 import {DeploymentStack} from './deployment-stack'
 

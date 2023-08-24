@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31bfc2d5-b78f-4617-9c5d-525903d24ac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/deployment/scripts/assume-role.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/src/deployment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/src/deployment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +128,7 @@
       <workItem from="1692641003180" duration="2565000" />
       <workItem from="1692682877743" duration="9620000" />
       <workItem from="1692727056568" duration="6852000" />
-      <workItem from="1692775610651" duration="16217000" />
+      <workItem from="1692775610651" duration="16875000" />
     </task>
     <servers />
   </component>
