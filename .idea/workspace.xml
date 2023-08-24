@@ -4,49 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31bfc2d5-b78f-4617-9c5d-525903d24ac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/commitlint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.husky/commit-msg" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/commit-msg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/335.7c55dd94.iframe.bundle.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/335.7c55dd94.iframe.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/761.cabeca5e.iframe.bundle.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/761.cabeca5e.iframe.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/77.08d21472.iframe.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/favicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/iframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/project.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-actions-2/manager-bundle.js.LEGAL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/build/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-actions-2/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-backgrounds-3/manager-bundle.js.LEGAL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-backgrounds-3/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-controls-1/manager-bundle.js.LEGAL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-controls-1/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-measure-6/manager-bundle.js.LEGAL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-measure-6/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-outline-7/manager-bundle.js.LEGAL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-outline-7/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-toolbars-5/manager-bundle.js.LEGAL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-toolbars-5/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-viewport-4/manager-bundle.js.LEGAL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/essentials-viewport-4/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/interactions-9/manager-bundle.js.LEGAL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/interactions-9/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/links-0/manager-bundle.js.LEGAL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/links-0/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/onboarding-8/manager-bundle.js.LEGAL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-addons/onboarding-8/manager-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-common-assets/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-common-assets/nunito-sans-bold-italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-common-assets/nunito-sans-bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-common-assets/nunito-sans-italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/sb-common-assets/nunito-sans-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build/stories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/scripts/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/scripts/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/release.sh" afterDir="false" />
-    </list>
+    <list default="true" id="31bfc2d5-b78f-4617-9c5d-525903d24ac7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +126,7 @@
       <workItem from="1692641003180" duration="2565000" />
       <workItem from="1692682877743" duration="9620000" />
       <workItem from="1692727056568" duration="6852000" />
-      <workItem from="1692775610651" duration="13068000" />
+      <workItem from="1692775610651" duration="14012000" />
     </task>
     <servers />
   </component>
