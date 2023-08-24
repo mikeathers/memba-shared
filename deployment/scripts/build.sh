@@ -2,8 +2,6 @@
 
 set -euo pipefail
 
-env=$1
-
 echo "--- 🚀 Installing npm dependencies..."
 yarn install --frozen-lockfile
 
