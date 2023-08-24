@@ -30,7 +30,7 @@ export class DeploymentStack extends Stack {
     })
 
     const accessIdentity = handleAccessIdentity({
-      scope,
+      scope: this,
       bucket,
       name: `${CONFIG.STACK_PREFIX}CloudFrontOriginAccessIdentity`,
     })
