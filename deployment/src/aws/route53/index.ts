@@ -1,6 +1,6 @@
 import {Stack} from 'aws-cdk-lib'
 import {ARecord, HostedZone, IHostedZone, RecordTarget} from 'aws-cdk-lib/aws-route53'
-import {Distribution, IDistribution} from 'aws-cdk-lib/aws-cloudfront'
+import {IDistribution} from 'aws-cdk-lib/aws-cloudfront'
 import {CloudFrontTarget} from 'aws-cdk-lib/aws-route53-targets'
 import CONFIG from '../../config'
 

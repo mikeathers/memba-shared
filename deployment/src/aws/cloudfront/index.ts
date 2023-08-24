@@ -1,7 +1,6 @@
 import {Duration, Stack} from 'aws-cdk-lib'
 import {
   AllowedMethods,
-  Behavior,
   BehaviorOptions,
   CacheCookieBehavior,
   CachedMethods,

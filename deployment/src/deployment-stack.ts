@@ -1,7 +1,6 @@
 import {Construct} from 'constructs'
 import {Stack, StackProps} from 'aws-cdk-lib'
-import {IHostedZone} from 'aws-cdk-lib/aws-route53'
-import {ResponseHeadersPolicy} from 'aws-cdk-lib/aws-cloudfront'
+
 import {
   createARecordForDistribution,
   createBucket,

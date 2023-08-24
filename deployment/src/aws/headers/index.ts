@@ -10,12 +10,6 @@ import {ResponseCustomHeader} from 'aws-cdk-lib/aws-cloudfront/lib/response-head
 export const getSecurityHeader = (scope: Stack): ResponseHeadersPolicy => {
   const name = `${CONFIG.STACK_PREFIX}SecurityHeadersResponseHeaderPolicy`
 
-  const header: ResponseCustomHeader = {
-    header: 'Content-Type',
-    value: 'application/json',
-    override: false,
-  }
-
   return new ResponseHeadersPolicy(scope, name, {
     comment: 'Security headers response header policy',
     responseHeadersPolicyName: name,

@@ -7,12 +7,7 @@ import {
   ObjectOwnership,
 } from 'aws-cdk-lib/aws-s3'
 import {BucketDeployment, CacheControl, Source} from 'aws-cdk-lib/aws-s3-deployment'
-import {
-  Distribution,
-  IDistribution,
-  OriginAccessIdentity,
-} from 'aws-cdk-lib/aws-cloudfront'
-import {S3Origin} from 'aws-cdk-lib/aws-cloudfront-origins'
+import {IDistribution} from 'aws-cdk-lib/aws-cloudfront'
 import {PolicyStatement} from 'aws-cdk-lib/aws-iam'
 
 export interface CreateBucketProps {
