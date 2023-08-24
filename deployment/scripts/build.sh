@@ -11,4 +11,4 @@ echo "--- 🚀 Run next build..."
 yarn storybook:build
 
 echo "--- 🚀 Zipping build..."
-zip -r storybook-build.zip .build
+zip -r storybook-build.zip build

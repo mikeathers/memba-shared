@@ -5,51 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31bfc2d5-b78f-4617-9c5d-525903d24ac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/commit-standard-version/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/commit-standard-version/action.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/commit-standard-version/entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/build/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/cdk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/scripts/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/scripts/deploy.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/scripts/lint_test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/api/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/certificate/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/cloudfront/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/functions/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/headers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/helpers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/logging/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/route53/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/aws/s3/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/deployment-stack.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/deployment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/helpers/helpers.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/helpers/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/helpers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/jest-setup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/mocks/api-gateway-event.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/src/test-support/mocks/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/tsconfig.eslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/release.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.setup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jest.setup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/auth/auth.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/auth/auth.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/use-safe-async/use-safe-async.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/use-safe-async/use-safe-async.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/axios/dev/axios-users-instance.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/axios/dev/axios-users-instance.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/axios/prod/axios-users-instance.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/axios/prod/axios-users-instance.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/build/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/scripts/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/scripts/build.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,30 +29,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/michaelatherton/Development/memba/memba-shared/.github&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/michaelatherton/Development/memba/memba-shared/node_modules/jest&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/michaelatherton/Development/memba/memba-shared/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/michaelatherton/Development/memba/memba-shared/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/michaelatherton/Development/memba/memba-shared",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/michaelatherton/Development/memba/memba-shared/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/michaelatherton/Development/memba/memba-shared/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/michaelatherton/Development/memba/memba-shared/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.github" />
       <recent name="$PROJECT_DIR$/deployment" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/hooks" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -172,7 +131,7 @@
       <workItem from="1692641003180" duration="2565000" />
       <workItem from="1692682877743" duration="9620000" />
       <workItem from="1692727056568" duration="6852000" />
-      <workItem from="1692775610651" duration="10719000" />
+      <workItem from="1692775610651" duration="11327000" />
     </task>
     <servers />
   </component>
