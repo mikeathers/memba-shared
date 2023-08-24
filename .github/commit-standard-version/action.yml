@@ -1,0 +1,15 @@
+name: 'Commit Standard Version Release'
+description: 'Runs the standard-version CLI with the given parameters and commits to the master branch'
+inputs:
+  commit-sha:
+    description: 'SHA of commit that triggered the run'
+    required: true 
+  github-token:
+    description: 'GitHub PAT that must have repo and read:packages scopes'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.commit-sha }}
+    - ${{ inputs.github-token }}

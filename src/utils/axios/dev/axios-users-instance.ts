@@ -1,6 +1,6 @@
 import axios from 'axios'
-import {refreshJwt} from '../../refresh-jwt'
 import {JWT_LOCALSTORAGE_KEY, DEV_API_ROUTES} from '@/config'
+import {refreshJwt} from '../../refresh-jwt'
 import {getItemFromLocalStorage} from '../../storage'
 
 export const axiosUsersAuthInstanceDev = axios.create({

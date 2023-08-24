@@ -5,12 +5,12 @@ import {mock} from 'jest-mock-extended'
 import type {ReactElement} from 'react'
 import mocked = jest.mocked
 
-import {mockCognitoUserAttributes, mockState} from '@/test-support'
+import {TEMP_LOCAL_STORAGE_PWD_KEY} from '@/config'
+import {hasAccessCheck} from '@/services'
 import {refreshJwt, removeItemFromLocalStorage, setItemInLocalStorage} from '@/utils'
+import {mockCognitoUserAttributes, mockState} from '@/test-support'
 import type {ChallengedUser} from './auth.types'
 import {ActionTypes, AuthContext, initialState, useAuth} from './'
-import {TEMP_LOCAL_STORAGE_PWD_KEY} from '@/config'
-import {createUserAccount, hasAccessCheck} from '@/services'
 import {CognitoUserAttributes, UserMembership} from '@/types'
 
 interface CognitoUserMockType {
@@ -236,6 +236,7 @@ describe('AuthContext', () => {
 
     it('should call Auth signUp with email and password', async () => {
       const {result} = renderUseAuth()
+      const mockCreateAccountCallback = jest.fn()
       await result.current.registerUser({
         emailAddress: testEmailAddress,
         password: testPassword,
@@ -244,11 +245,11 @@ describe('AuthContext', () => {
         appId: '',
         signUpRedirectUrl: '',
         membership,
-        createAccountCallback: jest.fn(),
+        createAccountCallback: mockCreateAccountCallback,
       })
 
       await waitFor(() =>
-        expect(createUserAccount).toHaveBeenCalledWith({
+        expect(mockCreateAccountCallback).toHaveBeenCalledWith({
           emailAddress: testEmailAddress.trim().toLowerCase(),
           password: testPassword,
           lastName: testLastName,

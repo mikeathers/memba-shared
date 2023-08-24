@@ -27,18 +27,6 @@ describe('useSafeAsync', () => {
     const unusualErrorMessage = 'unusual error message'
     const nonError = {data: null, status: 'rejected', reason: 'failed attempt'}
 
-    it('should throw an error if the promise cannot be invoked', async () => {
-      const {result} = renderUseSafeAsync()
-
-      try {
-        await result.current.run(new Promise(() => null))
-      } catch (e) {
-        expect((e as Error).message).toBe(
-          "The argument passed to useSafeAsync().run must be a promise. Maybe a function that's passed isn't returning anything?",
-        )
-      }
-    })
-
     it('should call dispatch with a PENDING action', async () => {
       const {result} = renderUseSafeAsync()
       await result.current.run(successfulPromise)

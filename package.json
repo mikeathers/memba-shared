@@ -15,10 +15,16 @@
     "prettier": "prettier \"./src/**/*.{ts,tsx,js,json}\" --check",
     "prettier:fix": "prettier \"./src/**/*.{ts,tsx,js,json}\" --check --write",
     "prepare": "husky install",
-    "test": "jest src/app",
+    "test": "jest src --silent",
+    "release": "standard-version",
+    "release-major": "standard-version --release-as major",
+    "release-minor": "standard-version --release-as minor",
+    "release-patch": "standard-version --release-as patch",
+    "pre-release-alpha": "standard-version --prerelease alpha",
+    "pre-release-beta": "standard-version --prerelease beta",
     "custom:build": "next build",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook:build": "storybook build -o deployment/build"
   },
   "dependencies": {
     "@aws-amplify/auth": "^5.6.2",
