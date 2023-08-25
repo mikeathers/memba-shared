@@ -34,25 +34,40 @@ interface PAGE_ROUTES {
   APPS: string
   MEMBERSHIPS: string
   GYM_MANAGEMENT: string
-}
-
-interface SITE_ROUTES {
-  ID: string
-  WEBSITE_HOME: string
+  HOME: string
+  SIGN_UP: string
+  CONFIRM_ACCOUNT: string
+  LOGIN: string
+  FORGOT_PASSWORD: string
+  RESET_PASSWORD: string
 }
 
 export const PAGE_ROUTES: PAGE_ROUTES = {
   APPS: '/apps',
   GYM_MANAGEMENT: '/gym-management',
   MEMBERSHIPS: '/memberships',
+  HOME: '/home',
+  SIGN_UP: '/signup',
+  CONFIRM_ACCOUNT: '/confirm-account',
+  LOGIN: '/login',
+  FORGOT_PASSWORD: '/forgot-password',
+  RESET_PASSWORD: '/reset-password',
+}
+
+interface SITE_ROUTES {
+  START: string
+  ID: string
+  WEBSITE_HOME: string
 }
 
 export const DEV_SITE_ROUTES: SITE_ROUTES = {
+  START: process.env.NEXT_PUBLIC_START_APP_URL ?? '',
   ID: process.env.NEXT_PUBLIC_ID_APP_URL ?? '',
   WEBSITE_HOME: 'https://dev.memba.co.uk',
 }
 
 export const PROD_SITE_ROUTES: SITE_ROUTES = {
+  START: 'https://start.memba.co.uk',
   ID: 'https://id.memba.co.uk',
   WEBSITE_HOME: 'https://memba.co.uk',
 }
@@ -95,7 +110,7 @@ export const ENDPOINTS: ENDPOINTS = {
   GET_BASIC_APP: 'get-basic-app',
   HAS_ACCESS_TO_APP: 'has-access',
   CREATE_GYM_APP: 'create-gym-app',
-  ADMIN_CHECK: 'tenants/is-admin',
+  ADMIN_CHECK: 'tenants/admin-check',
 }
 
 interface AMPLIFY {
@@ -116,41 +131,41 @@ const PROD_AMPLIFY: AMPLIFY = {
 }
 
 interface SERVICES {
-  ADMIN_CHECK: (props: AdminCheckProps) => Promise<boolean>
-  CREATE_GYM_APP: (props: CreateGymAppProps) => Promise<GetTenantUserApiResponse | null>
-  CREATE_TENANT_ACCOUNT: (
+  adminCheck: (props: AdminCheckProps) => Promise<boolean>
+  createGymApp: (props: CreateGymAppProps) => Promise<GetTenantUserApiResponse | null>
+  createTenantAccount: (
     props: CreateTenantAccountProps,
   ) => Promise<RegisterTenantResponse | null>
-  CREATE_USER_ACCOUNT: (props: CreateUserAccountProps) => Promise<MembaUser | null>
-  GET_APP: (props: GetAppProps) => Promise<MembaApp | null>
-  GET_BASIC_APP: (props: GetAppProps) => Promise<MembaApp | null>
-  GET_TENANT_ACCOUNT: (props: GetAccountProps) => Promise<MembaUser | null>
-  GET_USER_ACCOUNT: (props: GetAccountProps) => Promise<MembaUser | null>
-  HAS_ACCESS_CHECK: (props: HasAccessProps) => Promise<boolean>
+  createUserAccount: (props: CreateUserAccountProps) => Promise<MembaUser | null>
+  getApp: (props: GetAppProps) => Promise<MembaApp | null>
+  getBasicApp: (props: GetAppProps) => Promise<MembaApp | null>
+  getTenantAccount: (props: GetAccountProps) => Promise<MembaUser | null>
+  getUserAccount: (props: GetAccountProps) => Promise<MembaUser | null>
+  hasAccessCheck: (props: HasAccessProps) => Promise<boolean>
 }
 
 const DEV_SERVICES: SERVICES = {
-  ADMIN_CHECK: adminCheckDev,
-  CREATE_GYM_APP: createGymAppDev,
-  CREATE_TENANT_ACCOUNT: createTenantAccountDev,
-  CREATE_USER_ACCOUNT: createUserAccountDev,
-  GET_APP: getAppDev,
-  GET_BASIC_APP: getBasicAppDev,
-  GET_TENANT_ACCOUNT: getTenantAccountDev,
-  GET_USER_ACCOUNT: getUserAccountDev,
-  HAS_ACCESS_CHECK: hasAccessCheckDev,
+  adminCheck: adminCheckDev,
+  createGymApp: createGymAppDev,
+  createTenantAccount: createTenantAccountDev,
+  createUserAccount: createUserAccountDev,
+  getApp: getAppDev,
+  getBasicApp: getBasicAppDev,
+  getTenantAccount: getTenantAccountDev,
+  getUserAccount: getUserAccountDev,
+  hasAccessCheck: hasAccessCheckDev,
 }
 
 const PROD_SERVICES: SERVICES = {
-  ADMIN_CHECK: adminCheck,
-  CREATE_GYM_APP: createGymApp,
-  CREATE_TENANT_ACCOUNT: createTenantAccount,
-  CREATE_USER_ACCOUNT: createUserAccount,
-  GET_APP: getApp,
-  GET_BASIC_APP: getBasicApp,
-  GET_TENANT_ACCOUNT: getTenantAccount,
-  GET_USER_ACCOUNT: getUserAccount,
-  HAS_ACCESS_CHECK: hasAccessCheck,
+  adminCheck: adminCheck,
+  createGymApp: createGymApp,
+  createTenantAccount: createTenantAccount,
+  createUserAccount: createUserAccount,
+  getApp: getApp,
+  getBasicApp: getBasicApp,
+  getTenantAccount: getTenantAccount,
+  getUserAccount: getUserAccount,
+  hasAccessCheck: hasAccessCheck,
 }
 
 interface CONFIG {
@@ -159,7 +174,7 @@ interface CONFIG {
   API_ROUTES: API_ROUTES
   AMPLIFY: AMPLIFY
   ENDPOINTS: ENDPOINTS
-  SERVICES: SERVICES
+  services: SERVICES
 }
 
 export const DEV_CONFIG: CONFIG = {
@@ -168,7 +183,7 @@ export const DEV_CONFIG: CONFIG = {
   API_ROUTES: DEV_API_ROUTES,
   AMPLIFY: DEV_AMPLIFY,
   ENDPOINTS,
-  SERVICES: DEV_SERVICES,
+  services: DEV_SERVICES,
 }
 
 export const PROD_CONFIG: CONFIG = {
@@ -177,7 +192,7 @@ export const PROD_CONFIG: CONFIG = {
   API_ROUTES: PROD_API_ROUTES,
   AMPLIFY: PROD_AMPLIFY,
   ENDPOINTS,
-  SERVICES: PROD_SERVICES,
+  services: PROD_SERVICES,
 }
 
 export const CONFIG = (stage: 'dev' | 'prod') =>

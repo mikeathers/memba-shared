@@ -15,7 +15,6 @@ const mockChangePassword = jest.fn()
 const mockAddUserToState = jest.fn()
 const mockGoogleSignIn = jest.fn()
 const mockAppleSignIn = jest.fn()
-const mockRegisterTenant = jest.fn()
 
 const useAuthMockState: AuthContextValue = {
   state: {

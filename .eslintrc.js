@@ -12,14 +12,12 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'react', 'react-hooks', 'unicorn'],
   extends: [
-    'next/core-web-vitals',
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
-    'plugin:@next/next/recommended',
   ],
   rules: {
     'unicorn/filename-case': [
@@ -44,7 +42,6 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:react-hooks/recommended',
-        'plugin:@next/next/recommended',
       ],
       rules: {
         'react/react-in-jsx-scope': 'off',

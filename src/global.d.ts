@@ -10,7 +10,7 @@ declare global {
   /*************** SERVICES PROPS *********/
   /******************* ********************/
 
-  interface AdminCheckProps {
+  type AdminCheckProps = {
     emailAddress: string
   }
 

@@ -1,0 +1,1 @@
+{"version":3,"file":"get-app.d.ts","sourceRoot":"","sources":["../../../../src/services/prod/get-app.ts"],"names":[],"mappings":"AAEA,OAAO,EAAC,QAAQ,EAAC,MAAM,SAAS,CAAA;AAEhC,UAAU,WAAW;IACnB,GAAG,EAAE,MAAM,CAAA;CACZ;AAED,eAAO,MAAM,MAAM,UAAiB,WAAW,KAAG,QAAQ,QAAQ,GAAG,IAAI,CAUxE,CAAA"}

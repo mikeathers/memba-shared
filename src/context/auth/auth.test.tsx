@@ -1,3 +1,4 @@
+import React from 'react'
 import type {CognitoUser} from '@aws-amplify/auth'
 import {Auth, CognitoHostedUIIdentityProvider} from '@aws-amplify/auth'
 import {renderHook, waitFor} from '@testing-library/react'

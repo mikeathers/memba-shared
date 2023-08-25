@@ -10,6 +10,8 @@ export const initialState: AuthState = {
   userConfig: undefined,
 }
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 export const authReducer = (state: AuthState, action: AuthReducerAction): AuthState => {
   switch (action.type) {
     case ActionTypes.IS_LOGGING_IN: {

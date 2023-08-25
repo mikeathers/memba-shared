@@ -1,4 +1,3 @@
-'use client'
 import type {CognitoUser} from '@aws-amplify/auth'
 import {Auth} from '@aws-amplify/auth'
 import type {FC} from 'react'

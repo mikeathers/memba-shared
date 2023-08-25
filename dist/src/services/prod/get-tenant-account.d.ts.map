@@ -1,0 +1,1 @@
+{"version":3,"file":"get-tenant-account.d.ts","sourceRoot":"","sources":["../../../../src/services/prod/get-tenant-account.ts"],"names":[],"mappings":"AAEA,OAAO,EAAC,SAAS,EAAC,MAAM,SAAS,CAAA;AAEjC,UAAU,qBAAqB;IAC7B,YAAY,EAAE,MAAM,CAAA;CACrB;AAED,eAAO,MAAM,gBAAgB,UACpB,qBAAqB,KAC3B,QAAQ,SAAS,GAAG,IAAI,CAW1B,CAAA"}

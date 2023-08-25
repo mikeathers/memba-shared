@@ -1,0 +1,1 @@
+{"version":3,"file":"get-user-account.d.ts","sourceRoot":"","sources":["../../../../src/services/prod/get-user-account.ts"],"names":[],"mappings":"AAEA,OAAO,EAAC,SAAS,EAAC,MAAM,SAAS,CAAA;AAEjC,UAAU,mBAAmB;IAC3B,YAAY,EAAE,MAAM,CAAA;CACrB;AAED,eAAO,MAAM,cAAc,UAClB,mBAAmB,KACzB,QAAQ,SAAS,GAAG,IAAI,CAW1B,CAAA"}
