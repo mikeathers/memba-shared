@@ -1,7 +1,8 @@
 {
   "name": "@memba-labs/shared",
-  "version": "0.7.0",
-  "license": "UNLICENSED",
+  "version": "0.8.0",
+  "license": "MIT",
+  "author": "mikeathers",
   "description": "This is a shared utils package for [Memba](https://memba.co.uk/).",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -81,7 +82,6 @@
     "type": "git",
     "url": "git+https://github.com/mikeathers/memba-shared.git"
   },
-  "author": "mikeathers",
   "bugs": {
     "url": "https://github.com/mikeathers/memba-shared/issues"
   },
