@@ -5,11 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31bfc2d5-b78f-4617-9c5d-525903d24ac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.setup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jest.setup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/config.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/config.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/content/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/content/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/context/auth/auth.context.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/context/auth/auth.context.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/context/auth/auth.helpers.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/context/auth/auth.helpers.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/context/auth/auth.reducer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/context/auth/auth.reducer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/context/auth/auth.test.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/context/auth/auth.test.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/context/auth/auth.types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/context/auth/auth.types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/context/auth/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/context/auth/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/context/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/context/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/use-component-visible/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/use-component-visible/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/use-component-visible/use-component-visible.hook.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/use-component-visible/use-component-visible.hook.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/use-memba-details/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/use-memba-details/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/use-memba-details/use-memba-details.hook.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/use-memba-details/use-memba-details.hook.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/use-safe-async.hook.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/use-safe-async.hook.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/use-safe-async.reducer.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/use-safe-async.reducer.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/use-safe-async.test.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/use-safe-async.test.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/use-safe-async.types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/hooks/use-safe-async/use-safe-async.types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/admin-check.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/admin-check.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/create-gym-app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/create-gym-app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/create-tenant-account.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/create-tenant-account.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/create-user-account.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/create-user-account.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/get-app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/get-app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/get-basic-app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/get-basic-app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/get-tenant-account.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/get-tenant-account.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/get-user-account.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/get-user-account.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/has-access-check.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/has-access-check.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/dev/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/dev/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/admin-check.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/admin-check.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/create-gym-app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/create-gym-app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/create-tenant-account.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/create-tenant-account.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/create-user-account.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/create-user-account.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/get-app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/get-app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/get-basic-app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/get-basic-app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/get-tenant-account.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/get-tenant-account.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/get-user-account.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/get-user-account.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/has-access-check.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/has-access-check.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/services/prod/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/services/prod/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/test-support/__mocks__/cognito/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/test-support/__mocks__/cognito/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/test-support/__mocks__/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/test-support/__mocks__/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/test-support/__mocks__/locales/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/test-support/__mocks__/locales/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/test-support/__mocks__/state/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/test-support/__mocks__/state/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/test-support/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/test-support/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/axios/dev/axios-tenants-instance.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/axios/dev/axios-tenants-instance.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/axios/dev/axios-users-instance.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/axios/dev/axios-users-instance.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/axios/dev/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/axios/dev/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/axios/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/axios/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/axios/prod/axios-tenants-instance.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/axios/prod/axios-tenants-instance.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/axios/prod/axios-users-instance.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/axios/prod/axios-users-instance.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/axios/prod/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/axios/prod/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/formatting/formatting.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/formatting/formatting.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/formatting/formatting.test.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/formatting/formatting.test.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/formatting/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/formatting/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/interpolate/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/interpolate/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/interpolate/interpolate.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/interpolate/interpolate.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/interpolate/interpolate.test.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/interpolate/interpolate.test.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/refresh-jwt/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/refresh-jwt/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/refresh-jwt/refresh-jwt.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/refresh-jwt/refresh-jwt.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/refresh-jwt/refresh-jwt.test.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/refresh-jwt/refresh-jwt.test.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/storage/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/storage/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/storage/storage.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/storage/storage.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/type-guarding/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/type-guarding/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/validation/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/validation/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/utils/validation/validation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src/utils/validation/validation.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/stats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +203,7 @@
       <workItem from="1692727056568" duration="6852000" />
       <workItem from="1692775610651" duration="18715000" />
       <workItem from="1692887015266" duration="2242000" />
-      <workItem from="1692890959639" duration="6136000" />
+      <workItem from="1692890959639" duration="6814000" />
     </task>
     <servers />
   </component>

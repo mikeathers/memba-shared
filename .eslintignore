@@ -9,6 +9,5 @@ commitlint.config.js
 prettier.config.js
 .eslintrc.js
 .prettierignore
-__mocks__
 dist
 babel.config.js
