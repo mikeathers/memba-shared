@@ -3,7 +3,7 @@ rollup.config.ts
 rollup.config.js
 src/test-support
 jest.setup.ts
-jest.config.mjs
+jest.config.js
 lint-staged.config.js
 commitlint.config.js
 prettier.config.js
@@ -11,3 +11,4 @@ prettier.config.js
 .prettierignore
 __mocks__
 dist
+babel.config.js
