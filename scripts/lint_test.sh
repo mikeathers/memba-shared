@@ -5,18 +5,8 @@ set -euo pipefail
 echo "--- 🚀 Installing npm dependencies..."
 yarn install --frozen-lockfile
 
-cd deployment
-
-echo "--- 🚀 Installing npm dependencies..."
-yarn install --frozen-lockfile
-
-echo "--- 🚀 Linting cdk..."
-yarn lint
-
-echo "--- 🚀 Running cdk tests..."
+echo "--- 🚀 Running tests..."
 yarn test
 
-cd ../
-
-echo "--- 🚀 Linting next app..."
+echo "--- 🚀 Linting..."
 yarn lint
