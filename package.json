@@ -1,6 +1,6 @@
 {
   "name": "@memba-labs/shared",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "license": "UNLICENSED",
   "description": "This is a shared utils package for [Memba](https://memba.co.uk/).",
   "main": "dist/index.js",
