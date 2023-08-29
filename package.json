@@ -1,6 +1,6 @@
 {
   "name": "@memba-labs/shared",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "license": "MIT",
   "author": "mikeathers",
   "description": "This is a shared utils package for [Memba](https://memba.co.uk/).",

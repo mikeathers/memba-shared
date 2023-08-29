@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. See
 [standard-version](https://github.com/conventional-changelog/standard-version) for commit
 guidelines.
 
+## [0.18.0](https://github.com/mikeathers/memba-shared/compare/v0.17.0...v0.18.0) (2023-08-29)
+
 ## [0.17.0](https://github.com/mikeathers/memba-shared/compare/v0.16.0...v0.17.0) (2023-08-29)
 
 ## [0.16.0](https://github.com/mikeathers/memba-shared/compare/v0.15.0...v0.16.0) (2023-08-29)
