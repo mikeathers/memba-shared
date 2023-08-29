@@ -1,6 +1,6 @@
 {
   "name": "@memba-labs/shared",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "license": "MIT",
   "author": "mikeathers",
   "description": "This is a shared utils package for [Memba](https://memba.co.uk/).",
@@ -34,6 +34,7 @@
     "@types/react-dom": "18.2.7",
     "amazon-cognito-identity-js": "^6.3.3",
     "axios": "^1.4.0",
+    "encoding": "^0.1.13",
     "eslint": "8.47.0",
     "formik": "^2.4.3",
     "react": "18.2.0",
@@ -85,5 +86,12 @@
   "bugs": {
     "url": "https://github.com/mikeathers/memba-shared/issues"
   },
-  "homepage": "https://github.com/mikeathers/memba-shared#readme"
+  "homepage": "https://github.com/mikeathers/memba-shared#readme",
+  "browserslist": [
+    "last 2 versions",
+    ",> 0.2%",
+    "not dead",
+    "not IE 11",
+    "not IE_Mob 11"
+  ]
 }
